@@ -11,15 +11,15 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
     {songName: "Drag Me Down-One_Direction", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Attention-Charlie Puth", filePath: "/songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Shape of You-Ed Sheeran", filePath: "/songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Let Me Love You-Justin Bieber", filePath: "/songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "3 Peg Baliye-Sharry Mann", filePath: "/songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Tum hi ho-Arijit Singh", filePath: "/songs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Pehle Bhi Main-Vishal Mishra", filePath: "/songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Akhiyan Gulab-Mitraz", filePath: "/songs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Sajni-Arijit Singh", filePath: "/songs/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Jai Shri Ram- Ajay Atul", filePath: "/songs/10.mp3", coverPath: "covers/10.jpg"}
+    {songName: "Attention-Charlie Puth", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Shape of You-Ed Sheeran", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Let Me Love You-Justin Bieber", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "3 Peg Baliye-Sharry Mann", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Tum hi ho-Arijit Singh", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Pehle Bhi Main-Vishal Mishra", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Akhiyan Gulab-Mitraz", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Sajni-Arijit Singh", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Jai Shri Ram- Ajay Atul", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"}
 ]
 
 songItems.forEach((element, i)=>{
