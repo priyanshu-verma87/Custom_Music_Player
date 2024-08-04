@@ -10,7 +10,7 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Drag Me Down-One_Direction", filePath: "/songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Drag Me Down-One_Direction", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
     {songName: "Attention-Charlie Puth", filePath: "/songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "Shape of You-Ed Sheeran", filePath: "/songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "Let Me Love You-Justin Bieber", filePath: "/songs/4.mp3", coverPath: "covers/4.jpg"},
